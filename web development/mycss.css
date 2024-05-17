@@ -1,0 +1,156 @@
+html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin:0;
+    width: 100%;
+    background-image: url(2colorbackground.webp);
+    background-attachment:fixed;
+    background-size:cover;
+}
+.nar {
+    width:100%;
+    background-color: hsla(0, 0%, 90%, 0.75);
+    position:sticky;
+    top:0;
+    backdrop-filter:blur(5px);
+    border-bottom: 1px solid black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-top:1rem;
+    padding-bottom: 1rem;
+    z-index: 3;
+}
+.greeting {
+    font-size: 3rem;
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    margin-bottom:0;
+}
+.s_greeting {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top:0;
+    font-weight:bolder;
+}
+.card {
+    overflow:auto;
+}
+.card1 {
+    width: 70%;
+    height:auto;
+    background-color: rgba(255, 237, 249, 0.25);
+    background: linear-gradient(rgba(255, 255, 255, 0.361), rgba(255, 237, 232, 0.245));
+    margin:20px;
+    margin-top:40px;
+    backdrop-filter:blur(5px);
+    padding:20px;
+    border-radius:2rem;
+    overflow:auto;
+    transition:all 0.25s;
+    box-shadow: 1px 1px 3px rgba(200,200,200,0.75);
+    float: right;
+}
+.card1:hover {
+    scale: 1.05;
+}
+.learn_more_button {
+    margin-top:1rem;
+    right: 0;
+    bottom:0;
+    color:white;
+    background-color:rgb(32, 136, 255);
+    border: 0px;
+    padding:0.5rem;
+    border-radius: 11px;
+    float: right;
+    transition: all 0.25s;
+    box-shadow: 0px 0px 3px rgba(80, 147, 255, 0.75);
+}
+.learn_more_button:hover {
+    scale:1.1;
+}
+.heading1 {
+    font-size:2rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    height: fit-content;
+    width: fit-content;
+    text-align: left;
+    width:auto;
+    margin: 0;
+}
+.description {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    margin-top:1rem;
+}
+.card2 {
+    width: 70%;
+    height:fit-content;
+    background-color: rgba(255, 243, 229, 0.25);
+    background: linear-gradient(rgba(255, 255, 255, 0.361), rgba(255, 237, 232, 0.245));
+    margin:20px;
+    padding:20px;
+    border-radius:2rem;
+    right:0;
+    transition:all 0.25s;
+    backdrop-filter:blur(5px);
+    box-shadow: 1px 1px 3px rgba(200,200,200,0.75);
+    float: left;
+}
+.card2:hover {
+    box-shadow: 1px 1px 3px rgba(200,200,200,0.25);
+    scale: 1.05;
+}
+.heading2 {
+    font-size:2rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    margin: 0;
+}
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box {
+    background-color: rgba(200,200,200,0.25);
+    background: linear-gradient(rgba(255, 255, 255, 0.361), rgba(255, 237, 232, 0.245));
+    font-size:1rem ;
+    width: 15rem;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 2rem;
+    transition: all 0.25s;
+    backdrop-filter:blur(5px);
+    box-shadow: 1px 1px 3px rgba(200,200,200,0.75);
+}
+.box:hover {
+    scale: 1.1;
+}
+.shue {
+    width:100%;
+}
+img {
+    width: 100%;
+    border-radius: 12px;
+}
+.buy_button {
+    margin-top:1rem;
+    right: 0;
+    bottom:0;
+    width: 5rem;
+    color:white;
+    background-color:rgb(32, 136, 255);
+    border: 0px;
+    padding:0.5rem;
+    border-radius: 11px;
+    float: right;
+    transition: all 0.25s;
+    box-shadow: 0px 0px 3px rgba(80, 147, 255, 0.75);
