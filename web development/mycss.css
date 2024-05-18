@@ -123,8 +123,9 @@ body {
     background-color: rgba(200,200,200,0.25);
     background: linear-gradient(rgba(255, 255, 255, 0.361), rgba(255, 237, 232, 0.245));
     font-size:1rem ;
-    width: 20rem;
-    padding: 20px;
+    width: min-content;
+    padding: 15px;
+    height: fit-content;
     margin: 20px;
     border-radius: 2rem;
     transition: all 0.25s;
@@ -142,15 +143,46 @@ img {
     border-radius: 12px;
 }
 .buy_button {
-    margin-top:1rem;
     right: 0;
     bottom:0;
-    width: 5rem;
+    width: 4rem;
+    height: fit-content;
     color:white;
     background-color:rgb(32, 136, 255);
     border: 0px;
     padding:0.5rem;
     border-radius: 11px;
-    float: right;
+    float:right;
     transition: all 0.25s;
     box-shadow: 0px 0px 3px rgba(80, 147, 255, 0.75);
+}
+.price {
+    float: left;
+    margin:auto;
+    color:red;
+
+}
+.opt {
+    width:128px;
+    height:auto;
+    margin-top:1.5rem;
+}
+.info {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(rgba(255, 255, 255, 0.361), rgba(255, 237, 232, 0.245));
+    backdrop-filter:blur(50px);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 2rem;
+    padding-top:2rem;
+    bottom: 0;
+}
+.con_top {
+    text-align: center;
+    font-size: 2rem;
+    margin: 15px;
+}
+.contact {
+    margin: 2rem;
+    margin-bottom: 0;
+}
