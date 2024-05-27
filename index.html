@@ -8,14 +8,22 @@
     </head>
     <body>
         <script src="web development/script.js"></script>
-        <div class="nar">
-            <button type="button">
+     <div class="nar">
+            <button type="button" id="burger" onclick="openPanel()">
                 <div class="burger"></div>
                 <div class="burger"></div>
                 <div class="burger"></div>
             </button>
             <p>Online Shop</p>
             <button type="button" class="theme" onclick="changing()"></button>
+    </div>
+    <div id="panel">
+        <button id="closePanel" type="button" onclick="closePanel()"></button>
+        <div class="dash">Home</div>
+        <div class="dash">Search</div>
+        <div class="dash">Promotions</div>
+        <div class="dash">Up-coming</div>
+        <div class="dash">Report</div>
     </div>
         <p class="greeting">Welcome</p>
         <p class="s_greeting">to our shop!</p>
